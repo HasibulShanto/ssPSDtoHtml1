@@ -289,30 +289,41 @@ h1,h2,h3,p{
 }
 .work_top p{color: #2B9B2B;}
 
-.work_menu{
-	text-align: center;
-	overflow: hidden;
-	margin-bottom: 30px; 
+.work-btn{
+    max-width: 300px;
+    height: 32px;
+    text-align: center;
+    display: inline;
+    margin-left: 34%; 
+    
 }
-.work_menu ul{ 
-	list-style: none; 
+.btn1{
+    width: 120px;
+    height: 32px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    font-size: 17px;
+    color: #2B9B2B;
 }
-.work_menu ul li{
-	display: inline-block; 
-	background: #fff; 
-	padding-right: 0; 
-	border: 1px solid #2B9B2B;
+.btn2{
+    width: 90px;
+    height: 32px;
+    border: none;
+    font-size: 17px;
+    color: #2B9B2B;
 }
-#work_first{
-	border-radius: 20px 0 0 20px; 
-	background: #2B9B2B;
+.btn3{
+    width: 70px;
+    height: 32px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    font-size: 17px;
+    color: #2B9B2B;
 }
-#work_last{
-	border-radius: 0px 20px 20px 0px; 
+.work-btn input:hover{
+    background-color: #2B9B2B;
+    color: #fff;
 }
-.work_menu ul li a{display: block;padding: 10px 25px;}
-.work_menu ul li a:hover{background: #2B9B2B;}
-
 .work_down{
 	margin: 0 auto;
 }
@@ -588,31 +599,26 @@ h1,h2,h3,p{
 	margin-top: 30px;
 }
 
-.recentPost{ 
-	/*border: 2px solid blue;*/
+.recentPost{  
 	box-sizing: border-box;
 }
 
-.contactForm{
-	/*border: 2px solid yellow;*/
+.contactForm{ 
 	box-sizing: border-box;
 }
 
 .recent_post{}
-.recent_content{
-	/*border: 2px solid black;*/
+.recent_content{ 
 	box-sizing: border-box;
 	overflow: hidden;
 	margin-bottom: 8px;
 }
-.recent_left{ 
-	/*border: 2px solid yellow;*/
+.recent_left{  
 	box-sizing: border-box;
 	width: 20%;
 	float: left;
 }
-.recent_right{
-	/*border: 2px solid red;*/
+.recent_right{ 
 	box-sizing: border-box;
 	width: 80%;
 	float: right;
@@ -641,34 +647,39 @@ h1,h2,h3,p{
 	border-radius: 2px;
 	border: none;
 }
-.form_fill{
-	width: 300px;
-	height: 20px;
-	margin-bottom: 2px;
-	background: #444444;
-	border: none;
-}
-
+  
 .address p{
 	text-align: center;
 }
-textarea{
-	padding-top: 10px;
-	width: 298px;
-	height: 120px;
-	background: #444444;
-	border: none;
-}
-.contact_submit{
-	width: 300px;
-	height: 25px;
-	margin-top: -10px;
-	background: #2B9B2B;
+#contact_submit{
+	width: 93%;
+	background: #2B9B2B !important;
 	border: none;
 	border-radius: 0 0 4px 4px;
+	text-transform:uppercase;
+	font-size:16px;
+	padding:5px;
+	color:#fff;
 }
-.contact_submit:hover{
-	background: #089DEA;
+#contact_submit:hover{
+	background: #089DEA !important;
+}
+.ctForm .fill1{border-radius: 4px 4px 0 0 !important;}
+.ctForm input{
+    width: 90%;
+    padding: 5px;
+    border: none;
+    margin-bottom: 2px;
+    background-color: #444444;
+    font-size: 15px;
+}
+.ctForm textarea{
+    width: 90%;
+    padding: 5px;
+    border: none;
+    margin-bottom: -4px;
+    background-color: #444444;
+    font-size: 18px;
 }
 
 /*contact us end*/
